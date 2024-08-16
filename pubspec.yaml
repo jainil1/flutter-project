@@ -1,0 +1,27 @@
+name: jainil1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  shared_preferences: ^2.0.15
+
+flutter:
+  assets:
+    - assets/images/nuv_logo.png
+    - assets/text/data science info.txt
+
+  uses-material-design: true
