@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
             children: [
               // Replace network image with local image
               Image.asset(
-                'assets/images/nuv_logo.png', // Update with your image path
+                'assets/nuv_logo.png', // Update with your image path
                 width: 400,
                 height: 200,
               ),
