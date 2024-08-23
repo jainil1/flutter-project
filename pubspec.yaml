@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   google_maps_flutter: ^2.1.1
+  video_player: ^2.5.0
+  audioplayers: ^0.20.1
 
 dev_dependencies:
   flutter_test:
@@ -23,5 +25,7 @@ flutter:
   assets:
     - assets/images/nuv_logo.png
     - assets/text/data science info.txt
+    - assets/video.mp4
+    - assets/audio.mp3
 
   uses-material-design: true
