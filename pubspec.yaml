@@ -23,9 +23,10 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assets/images/nuv_logo.png
-    - assets/text/data science info.txt
+    - assets/nuv_logo.png
+    - assets/data science.txt
     - assets/video.mp4
     - assets/audio.mp3
+    -assets/marks.json
 
   uses-material-design: true

@@ -21,7 +21,7 @@ class _MyAppState extends State {
   }
 
   Future loadData() async {
-    String fileText = await rootBundle.loadString('assets/text/data science info.txt');//data science info.txt is placed under text directory of assets folder and respective changes are made in pubspec.yaml.
+    String fileText = await rootBundle.loadString('assets/data science.txt');//data science info.txt is placed under text directory of assets folder and respective changes are made in pubspec.yaml.
     setState(() {
       _fileContents = fileText;
     });
